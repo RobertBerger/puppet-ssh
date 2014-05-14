@@ -1,0 +1,26 @@
+{
+  "author": "Robert Berger",
+  "checksums": {
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "a046a32c75c19a5dacba4198e8de1d3f",
+    "Modulefile": "fc3d3bb07cfece11e188baef439274c5",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "tests/init.pp": "423466ae46899d6a0480aa9910b096d2",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "README.markdown": "4bd6a6c15f366523733bf1874ba67f7a"
+  },
+  "dependencies": [
+    {
+      "name": "domcleal/augeasproviders",
+      "version_requirement": "1.1.0"
+    }
+  ],
+  "description": "",
+  "license": "GPL v2",
+  "name": "rber-ssh",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}
