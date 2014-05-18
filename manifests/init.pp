@@ -19,9 +19,15 @@ class ssh {
   value  => "yes",
   }
   # don't use Localhost for X11
-  sshd_config { "X11UseLocalhost global":
+  # sshd_config { "X11UseLocalhost global":
+  # ensure => present,
+  # key    => "X11UseLocalhost",
+  # value  => "no",
+  #}
+  # X11DisplayOffset
+  sshd_config { "X11DisplayOffset global":
   ensure => present,
-  key    => "X11UseLocalhost",
-  value  => "no",
+  key    => "X11DisplayOffset",
+  value  => "10",
   }
 }
