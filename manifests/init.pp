@@ -39,7 +39,7 @@ class ssh {
   # XAuthLocation /usr/bin/xauth
   sshd_config { "XAuthLocation global":
   ensure => present,
-  key    => "/usr/bin/xauth",
-  value  => "yes",
+  key    => "XAuthLocation",
+  value  => "/usr/bin/xauth",
   }
 }
