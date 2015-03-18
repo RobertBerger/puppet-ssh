@@ -9,4 +9,4 @@ project_page ''
 
 ## Add dependencies, if any:
 # dependency 'username/name', '>= 1.2.0'
-dependency 'domcleal/augeasproviders', '1.1.0'
+dependency 'hercules-team/augeasproviders_ssh', '2.2.2'
