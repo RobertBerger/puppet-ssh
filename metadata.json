@@ -11,7 +11,7 @@
   },
   "dependencies": [
     {
-      "name": "hercules-team/augeasproviders_ssh",
+      "name": "herculesteam/augeasproviders_ssh",
       "version_requirement": "2.2.2"
     }
   ],
